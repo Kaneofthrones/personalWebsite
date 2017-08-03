@@ -1,4 +1,8 @@
  
+ body {
+ 	background-color: #30343F !important;
+ 	color: #FFF !important;
+ }
  .jumbotron {
  	  position: relative;
     background-color: transparent !important;
@@ -8,14 +12,77 @@
     position: absolute;
     left:0; top:0;
     background-size: cover;
-    min-height: 768px;
+    /*min-height: 768px;*/
     width: 100vw;
     opacity: 0.65;   
     z-index: -1;
-  	height: 80vh;
+  	height: 60vh;
+}
+
+#headerblock {
+	display: inline-block;
 }
 
 #dropmenu {
 	float: right;
-	padding: 5%;
+	padding: 2vh 2vw;
+	display: inline-block;
+	position: relative;
 }
+
+.navbar-header {
+	background-color: #CDCDCD;
+}
+
+.thumbnail {
+	float: left;
+}
+
+#text1 {
+	margin: 10vh 5vw;
+	float: left;
+}
+
+.img-responsive {
+	margin: 10% auto;
+	float: right;
+
+}
+
+/*<------- Footer CSS --------> */
+.copyrights{
+margin-top: 0px;
+}
+
+footer.container-fluid.text-center.foot {
+    background: #000915;
+}
+
+.dark-line{
+border-top: 1px solid #525252;
+margin: 1px;
+}
+
+.white-txt{
+color: #FFF;
+}
+
+
+a.link {
+    color: #008acc;
+    border: 1px #008acc solid;
+    padding: 5px;
+    text-decoration: none;
+}
+
+a.link:hover {
+background: #008acc;
+    color: #383838;
+}
+
+.footimg{
+width: 5rem;
+}
+
+
+
