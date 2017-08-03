@@ -1,5 +1,10 @@
-# personalWebsite
-Personal website exercise
+# Introduction
+<hr>
+
+## Contents
+<hr>
+
+1. Personal website exercise
 
 Given a checklist which is as follows:
 
