@@ -5,54 +5,59 @@
 	<link rel="stylesheet" type="text/css" href="CSS/style.css">
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	<link rel="icon" type="image/png" href="assets/km-favicon.png">
-</head>,
+</head>
 <body>
+	<nav class="navbar navbar-default">
+		<!-- <div class="container-fluid"> -->
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">
+  				<img alt="Logo" src="assets/Entypo+/Entypo+/home.svg" height="24" width="24">
+				 	</a>
+				 	<a  id="dropmenu" class="navbar-brand" href="#">
+  				<img alt="menu" src="assets/Entypo+/Entypo+/menu.svg" height="24" width="24">
+				 	</a>
+			</div>
+		<!-- </div> -->
+	</nav>
 	<div class="jumbotron">
 		<div id="headerblock" class="container">
 			<div class="img"></div>
-				<nav class="navbar navbar-default">
-  				<div class="container-fluid">
-    				<div class="navbar-header">
-      				<a class="navbar-brand" href="#">
-        				<img alt="Logo" src="assets/favicon2.gif" height="24" width="24">
-     				 	</a>
-     				 	<a  id="dropmenu" class="navbar-brand" href="#">
-        				<img alt="menu" src="assets/Entypo+/Entypo+/menu.svg" height="24" width="24">
-     				 	</a>
-    				</div>
-  				</div>
-				</nav>
 				<div class="row">
-  				<div class="col-sm-6 col-md-4">
+  				<div id="headleft" class="col-sm-6 col-md-4">
     				<div class="thumbnail">
-      				<img src="assets/thumbnail1.jpg" alt="KM">
+      				<a href="https://www.linkedin.com/in/kane-marcus-0a4a50135/"> <img src="assets/thumbnail1.jpg" alt="KM" > </a>
    					</div>
   				</div>
+  				<div id="headright" class="col-sm-6 col-md-4">
+  				  <h1>
+							Kane Marcus
+						</h1>
+							<p>
+								Sparta Global SDET trainee 
+							</p>
+					</div>
 				</div>
-				<h1>
-					Hello World
-				</h1>
-					<p>
-						Providing hello world excellence
-					</p>
 		</div>
 	</div>
-	<dl id="text1" class="dl-horizontal">
-	  <dt>Info</dt>
-	  <dd>description</dd>
-	  <dt>Info</dt>
-	  <dd>description</dd>
-	 	<dt>Info</dt>
-	  <dd>description</dd>
-	</dl>
-
-	<div class="container"> 
-		<img src="assets/thumbnail1.jpg" class="img-responsive" alt="Responsive Image">
+	<div id="content1" class="container"> 
+		<div class="row">
+			<div id="mainleft" class="col-sm-6 col-md-6"">
+				<dl id="text1" class="dl-horizontal">
+				  <dt>Aims of this exercise</dt>
+				  <dd>To gain a better understanding of the Bootstrap framework and to put into practise everything i have learned so far</dd>
+				  <dt>My experience so far</dt>
+				  <dd>Enjoying the course and have already had to push myself, which may be stressful at times, however I feel much better because of it and I am very optimistic of my future with Sparta Global
+				  </dd>
+				 	<dt>Other Skills</dt>
+				  <dd>I have taught dance for over three years and have regularly performed around the UK for one year</dd>
+				</dl>
+				</div>
+				<div id="mainright" class="col-sm-6 col-md-6"">
+			<img src="assets/picture1.jpeg" class="img-responsive" alt="Responsive Image">
+			</div>
+		</div>
 	</div>
-
-
 	<footer class="container-fluid text-center foot">
-
       <div class="copyrights">
           <p class="white-txt">Kane Marcus © 2017
               <br>
@@ -60,11 +65,9 @@
           </p>
           <hr class="dark-line">
           <p class="white-txt small">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ornare elit odio, eu imperdiet ligula ullamcorper sed.
+              Based in London 
           </p>
       </div>
 	</footer>
-
-	
 </body>
 </html>

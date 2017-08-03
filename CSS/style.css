@@ -6,9 +6,10 @@
  .jumbotron {
  	  position: relative;
     background-color: transparent !important;
+    /*padding-bottom:  20vh;*/
  }
 .img {
-		background-image: url("../assets/bg1.jpg");
+		background-image: url("../assets/jumbotron-log.jpg");
     position: absolute;
     left:0; top:0;
     background-size: cover;
@@ -23,6 +24,14 @@
 	display: inline-block;
 }
 
+#headleft  {
+	margin: 1% 5%;
+}
+
+#headright  {
+	margin: 1% 5%;
+}
+
 #dropmenu {
 	float: right;
 	padding: 2vh 2vw;
@@ -32,6 +41,7 @@
 
 .navbar-header {
 	background-color: #CDCDCD;
+	width: 100%;
 }
 
 .thumbnail {
@@ -39,14 +49,20 @@
 }
 
 #text1 {
-	margin: 10vh 5vw;
+	margin: 2px;
+	padding-top: 14vh;
 	float: left;
+	padding-bottom: 5vh;
 }
 
 .img-responsive {
-	margin: 10% auto;
+	padding-top: 14vh;
 	float: right;
+	padding-bottom: 5vh;
+}
 
+#content1 {
+	display: inline-block;
 }
 
 /*<------- Footer CSS --------> */
@@ -65,6 +81,7 @@ margin: 1px;
 
 .white-txt{
 color: #FFF;
+padding-top: 2vh;
 }
 
 
