@@ -1,12 +1,16 @@
-# Introduction
+# Introduction - Personal Website Exercise
 <hr>
 
-## Contents
+# Table of Contents
+
+* [Checklist](#check-list)
+* [Method](#method)
+
 <hr>
 
-1. Personal website exercise
+# <a name="check-list"> </a>Checklist
 
-Given a checklist which is as follows:
+We were given a checklist and had to complete the steps in order.
 
 - Make a Wireframe for both small and large devices
 - Get approval from trainers for the Wireframes
@@ -17,5 +21,16 @@ Given a checklist which is as follows:
 - Build HTML template
 - Start Bootstrapping/CSSing
 - Make the web page responsive
+
+<hr>
+
+# <a name="method"> </a>Method
+
+The __*method*__ I used to build the website was to follow the __*checklist*__, write down my **immediate** objective then only move onto the next objective once I have __*completed*__ the one at hand.
+
+I have an image showing the simple yet effective method **below:** 
+
+
+
 
 
