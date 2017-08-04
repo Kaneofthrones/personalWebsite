@@ -5,6 +5,9 @@
 
 * [Checklist](#check-list)
 * [Method](#method)
+* [Wireframes](#wireframes)
+* [Color-Scheme](#colorscheme)
+* [Review](#review)
 
 <hr>
 
@@ -30,7 +33,29 @@ The __*method*__ I used to build the website was to follow the __*checklist*__, 
 
 I have an image showing the simple yet effective method **below:** 
 
+![worklist](assets/worklist.jpg)
 
+<hr>
 
+# <a name="wireframes"> </a>Wireframes
 
+![wireframe1](assets/wireframe1.jpg)
+![wireframe2](assets/wireframe2.jpg)
 
+I wanted a mimimalist design with a Z design pattern so the user starts at the top left of the page, goes to the top right, back to the bottom left and then to the bottom right.
+
+In retrospect I think the nav bar at the top is not the look I want and would instead have icons for the different pages and display them inline but without a bar behind them.
+
+<hr>
+
+# <a name="colorscheme"> </a>Color-Scheme
+
+For the color scheme I used the coolers.co color palette as shown below:
+
+![colorPalette](assets/color_palette.png)
+
+<hr>
+
+# <a name="review"> </a>Review
+
+I found the exercise very useful as it helped me to adopt a better structure and workflow. The presentation was particularly useful as I need as much experience as possible presenting work I have done. 
